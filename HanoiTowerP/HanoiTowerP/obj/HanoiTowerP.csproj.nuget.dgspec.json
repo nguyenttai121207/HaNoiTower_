@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Toaif\\Desktop\\HanoiTowerP\\HanoiTowerP\\HanoiTowerP.csproj": {}
+    "C:\\Users\\Toaif\\source\\repos\\HaNoiTower_\\HanoiTowerP\\HanoiTowerP\\HanoiTowerP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Toaif\\Desktop\\HanoiTowerP\\HanoiTowerP\\HanoiTowerP.csproj": {
+    "C:\\Users\\Toaif\\source\\repos\\HaNoiTower_\\HanoiTowerP\\HanoiTowerP\\HanoiTowerP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Toaif\\Desktop\\HanoiTowerP\\HanoiTowerP\\HanoiTowerP.csproj",
+        "projectUniqueName": "C:\\Users\\Toaif\\source\\repos\\HaNoiTower_\\HanoiTowerP\\HanoiTowerP\\HanoiTowerP.csproj",
         "projectName": "HanoiTowerP",
-        "projectPath": "C:\\Users\\Toaif\\Desktop\\HanoiTowerP\\HanoiTowerP\\HanoiTowerP.csproj",
+        "projectPath": "C:\\Users\\Toaif\\source\\repos\\HaNoiTower_\\HanoiTowerP\\HanoiTowerP\\HanoiTowerP.csproj",
         "packagesPath": "C:\\Users\\Toaif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Toaif\\Desktop\\HanoiTowerP\\HanoiTowerP\\obj\\",
+        "outputPath": "C:\\Users\\Toaif\\source\\repos\\HaNoiTower_\\HanoiTowerP\\HanoiTowerP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

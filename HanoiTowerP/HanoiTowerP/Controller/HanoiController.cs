@@ -55,7 +55,7 @@ namespace HanoiTowerP.Core
 
         public HanoiTowerSolve.Move NextStep()
         {
-            if (current == null)
+            if (!HasNext())
             {
                 return null;
             }
