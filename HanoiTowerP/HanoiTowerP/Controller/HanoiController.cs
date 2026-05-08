@@ -71,6 +71,7 @@ namespace HanoiTowerP.Core
             return step;
         }
 
+        // Lấy trạng thái hiện tại của các peg để UI có thể cập nhật
         public Stack<int>[] GetPeg() => pegStack;
         
 
