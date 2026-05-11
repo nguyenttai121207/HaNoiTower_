@@ -66,7 +66,6 @@ namespace HanoiTowerP
             var pegStacks = controller.GetPeg();
             if (pegStacks == null) return;
 
-            // controller uses 1-based pegs (0..2)
             DrawAllDisks(PegA, pegStacks[0]);
             DrawAllDisks(PegB, pegStacks[1]);
             DrawAllDisks(PegC, pegStacks[2]);

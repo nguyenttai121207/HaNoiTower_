@@ -312,15 +312,17 @@ namespace HanoiTowerP
         {
             if (node == null) return;// base case: no more disk to draw
 
-            // go to end first (largest disk)
+            // Đi từ dưới lên trên: vẽ đĩa ở node tiếp theo trước, sau đó mới vẽ đĩa hiện tại
             RenderDiskFromNode(peg, node.Next, level - 1);
 
-            // draw when unwinding (from bottom up)
+            // vẽ đĩa hiện tại
             Panel diskPanel = CreateDiskControl(node.Data);
 
+            // Vị trí của đĩa: căn giữa theo chiều ngang, và xếp chồng lên nhau theo chiều dọc
             diskPanel.Left = (peg.ClientSize.Width - diskPanel.Width) / 2;
             diskPanel.Top = peg.ClientSize.Height - 30 - (level * 20);
 
+            // Thêm đĩa vào cột
             peg.Controls.Add(diskPanel);
             diskPanel.BringToFront();
         }
@@ -364,7 +366,8 @@ namespace HanoiTowerP
         // Add disk when button clicked
         private void pDisk_Click(object sender, EventArgs e)
         {
-            diskCount++;
+            if (diskCount < 10) // Giới hạn số đĩa tối đa là 10 để tránh quá tải giao diện  
+                diskCount++;
             btnReset_Click(sender, e);
             
         }
